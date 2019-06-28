@@ -57,3 +57,38 @@ data
 import webbrowser
 webbrowser.open("http://gw.kaoni.com")
 webbrowser.open_new("http://google.com")
+
+#===================================================
+import os
+os.system("cd ../python")
+dir = os.popen("dir")
+print(dir.read())
+
+import glob
+glob.glob("doit/game/*.py")
+
+import time
+#2018/04/03 17:20:32
+time.strftime("%Y/%m/%d %X ", time.localtime(time.time()))
+
+import random
+[random.randint(1, 45) for x in range(6)]
+
+mstr = '''
+|\_/|
+|q p|   /}
+( 0 )"""\\
+|"^"`    |
+||_/=\\\\__|
+'''
+print(mstr)
+
+import sys
+testlist = []
+while True:
+    tmpstr = input() 
+    if tmpstr == "":
+        break
+    else:
+        testlist.append(tmpstr)
+print("\n".join(testlist))
