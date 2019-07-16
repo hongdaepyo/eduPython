@@ -6,6 +6,7 @@ b = False
 1 == 1
 2 > 1
 2 < 1
+a = [1, 2 ,3]
 
 while a:
     print(a.pop())
@@ -20,7 +21,7 @@ if [1, 2, 3]:
 else:
     print("거짓")
 
-bool('python')
+type(bool('python'))
 
 bool('')
 
@@ -37,8 +38,26 @@ b = a
 id(b)
 
 a[1] = 4
+a
+b
 
 a = [1, 2, 3]
+
 b = a[:]
 
 a[1] = 4
+
+a, b = ('python', 'life')
+(a, b) = 'python', 'life'
+a, b = 'python3', 'life3'
+a
+b
+a, b = "test다들어간다"
+a, b = 1, 2
+a, b = b, a
+a , b = 1, 2, 3
+
+money = False
+print(1 | 2)
+1 = 01(2)
+2 = 10(2)
